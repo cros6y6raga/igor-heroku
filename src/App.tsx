@@ -8,6 +8,7 @@ type PropsType = {
     userId: number
 }
 
+
 function App() {
     const [state, setState] = useState<PropsType[]>([])
     console.log(state)
